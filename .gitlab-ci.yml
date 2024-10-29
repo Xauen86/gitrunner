@@ -1,0 +1,17 @@
+stages:
+  - test
+  - build
+
+test_job:
+  stage: test
+  image: node:14  # Utiliza una imagen de Node.js
+  script:
+    - npm install
+    - npm test
+
+build_job:
+  stage: build
+  image: node:14
+  script:
+    - echo "Building the application..."
+    - echo "Build successful!"
