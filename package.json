@@ -1,1 +1,10 @@
-
+{
+  "name": "example-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Running tests...' && exit 0"
+  },
+  "dependencies": {}
+}
